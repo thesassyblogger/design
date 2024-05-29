@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    /* background: url("./art15.webp"); */
+    background-color: silver;
+}
+/* navbar section */
+
+nav{
+    display: flex;
+}
+#navbar{
+   z-index: 1;
+}
+
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    display: flex;
+    margin: 20px 50px;
+    height: 40px;
+    /* width: 130px; */
+    /* padding: 5px; */
+    font-size: 1.2rem;
+    font-family: 'Potta One', cursive;
+    /* border: 4px solid black; */
+    /* text-decoration: none;
+    color: silver; */
+    /* border-radius: 20px;
+    background-color: rgb(182, 182, 182); */
+    opacity: 0.8;
+}
+.right{
+    position: fixed;
+    right: 34px;
+    top: 20px;
+    display:inline-block;
+    
+}
+.right button{
+    /* position: fixed; */
+    color: white;
+    padding: 4px;
+    margin: 4px;
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: 'Potta One', cursive;
+}
+.right button:hover{
+    /* position: fixed; */
+    color:black;
+    padding: 4px;
+    margin: 4px;
+    border: 2px solid black;
+    background-color:white;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: 'Potta One', cursive;
+    cursor: pointer;
+}
+/* #navbar ul li:hover{
+    font-size: 1.5rem;
+    font-family: 'Potta One', cursive;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    cursor: auto;
+} */
+#navbar ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2rem;
+    position: fixed;
+    /* margin: 20px; */
+}
+#navbar ul li a:hover{
+    font-size: 1.2rem;
+    font-family: 'Potta One', cursive;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    cursor:pointer; 
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(8, 8, 8);
+    height: 70px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    position: fixed;
+    top: 0px;
+    left: 0px;}
+
+
+
+
+
+/* home section */
+#home{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-left:20px;
+    margin-top: 20px;
+}
+
+#home h1{
+    font-size: 3rem;
+    /* height: 300px;
+    width: 500px; */
+    /* display: flex; */
+    align-items: center;
+    justify-content:center;
+    margin-right: 100px ;
+    color:rgb(0, 0, 0);
+    font-family: 'Potta One', cursive;
+}
+#home p{
+   color: rgb(0, 0, 0);
+   font-size: 1.3rem;
+   font-family: 'Potta One', cursive;
+}
+/* #home button{
+    width: 200px;
+   color: red;
+   margin: 7px 400px;
+   border: 4px solid black;
+   font-size: 1.2rem;
+   padding: 4px;
+} */
+#logo img{
+    width: 500px;
+    height: 400px;
+    margin:20px 20px ;
+    border: 3px solid black;
+    /* position: fixed; */
+    z-index: -5;
+}
+/* new section */
+.id{
+    display: flex;
+    margin-left:20px;
+    margin-top: 20px;
+}
+.box{
+    font-size: 1.3rem;
+    font-family: 'Potta One', cursive;
+    color: #000;
+    /* margin: 25px;
+    padding: 20px;*/
+     display: flex;
+     flex-direction: column;
+     /* position: absolute; */
+}
+.img img{
+    width: 500px;
+    height: 400px;
+    margin:20px 20px ;
+    border: 3px solid black; 
+}
+
+/* .id div h2{
+    /* font-size: 3rem;
+    /* height: 300px;
+    width: 500px; */
+    /* display: flex; */
+    /* align-items: center;
+    justify-content:center; */
+    /* margin-right: 100px ; */
+    /* color:rgb(0, 0, 0);
+    font-family: 'Potta One', cursive;
+    display: ;
+} */ 
+
+
+.box p strong{
+    font-size: 3rem;
+}
+
+
+
+/* Client section*/
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    /* background-color: rgb(170, 169, 169); */
+    }
+    #client{
+        background-color: rgb(167, 166, 166);
+    }
+    
+    #client img{
+        height: 130px;
+        width: 100px;
+    }
+    #clients div{
+        padding: 50px;
+    }
+    #client{
+        color: rgb(0, 0, 0);
+        font-family: 'Potta One', cursive;
+    }
+    .centre{
+        text-align: center;
+    }
+
+
+
+    /*form section*/
+    #contact{
+        /* text-align: center; */
+        font-family: 'Potta One', cursive;
+        color: black;
+        font-size: 1.2rem;
+        background-color: rgb(148, 148, 148);
+        /* width: 100px; */
+    }
+    #contact::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.78;
+        /* background: url('./art2.jpg') no-repeat center center/cover; */
+      }
+      #contactbox{
+          display: flex;
+          margin-top: 10px;
+          /* border: 4px solid black; */
+          justify-content: center;
+          align-items: center;
+          /* width: 100px; */
+      }
+      #contactbox input,#contactbox textarea{
+          background-color: rgb(54, 54, 54);
+          border: 3px solid black;
+          border-radius: 10px;
+          padding: 7px;
+          margin: 7px;
+          width: 500px;
+          font-family: 'Baloo Bhai 2', cursive;
+      }
+      input::placeholder{
+          color: white;
+      }
+      #contactbox form{
+        width: 40%;
+    
+    }
+    #contactbox label{
+      font-size: 1.3rem;
+      font-family: 'Baloo Bhai 2', cursive;
+    }
+
+
+
+
+      /* footer section */
+      footer{
+        background: black;
+        color: wheat;
+        padding: 20px 30px;
+    }
